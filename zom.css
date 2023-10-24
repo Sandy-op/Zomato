@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-image: url(./zomato-img/head-img.webp);
+    height: 63vh;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+}
+.leftlogo img{
+    height: 43px;
+    width: 120px;
+    padding-top: 15px;
+}
+.headnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 218px;
+    height: 55px;
+}
+.rightnav{
+    display: flex;
+    align-items: center;
+}
+
+.btn1{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 6px 18px;
+    font-size: 15px;
+}
+.btn2{
+    background-color: rgb(24, 129, 248);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 7px 20px;
+    font-size: 15px;
+    margin-left: 12px;
+}
+.btn2:hover{
+    background-color:rgb(19, 100, 194) ;
+}
+.adv p{
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+.dishead {
+    color: white;
+    margin-left: 286px;
+    margin-right: 352px;
+    margin-top: 38px;
+}
+.dishead h1{
+    font-size: 2.5em;
+    font-weight: 100;
+
+}
+.dishead p{
+    margin: 26px 0px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.btn3{
+    background-color:rgb(24, 129, 248) ;
+    border: 1px solid  transparent;
+    height: 48px;
+    width: 350px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 9px;
+    color: white;
+}
+.btn3:hover{
+    background-color: rgb(19, 100, 194);
+}
+.btn4{
+    background-color:white ;
+    border: 1px solid  transparent;
+    height: 48px;
+    width: 350px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.btnxxyy{
+    display: flex;
+}
+#disbot{
+    font-size: 15px;
+    margin: 7px
+}
+
+.docsreq{
+    color: black;
+    border: 1px solid transparent;
+    width: 717px;
+    height: 251px;
+    background-color: rgb(255, 255, 255);
+    padding:  10px 0px;
+    text-align: center;
+    margin-top: 200px;
+    border-radius: 8px;
+    margin: 64px auto;
+    padding-top: 40px;
+}
+.docsreq ul li img{
+    height: 18px;
+    width: 18px;
+    padding-right: 9px;
+}
+.docsreq ul li{
+    display: flex;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(54, 54, 54);
+    font-family: Okra, Helvetica, sans-serif;
+    width: 50%;
+    padding-top: 25px;
+}
+.docsreq ul{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.docsreq h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+.docsreq h3{
+    font-size: 19px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: #696969;
+}
+.abbb{
+    background: rgb(244, 244, 244);
+    height: 340px;
+    width: 100%;
+    position: absolute;
+    bottom: -83px;
+    z-index: -1;
+}
+.whysh{
+    text-align: center;
+    position: relative;
+    top: 380px
+}
+.whysh h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+.whysh h3{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px 284px;
+    color: #696969;
+    line-height: 32px;
+}
+.whyshli{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+.whyshbox{
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: rgba(28, 28, 28, 0.1) 0px 4px 16px;
+    height: 100px;
+    width: 280px;
+    margin: 60px 9px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.whyshbox img{
+    height: 30px;
+    width: 30px;
+    padding-right: 30px;
+}
+.lrgtxt{
+    color: rgb(37, 111, 239);
+    font-size: 24px;
+    font-weight: 500;
+}
+.smltxt{
+    font-size: 18px;
+    color: #797979;
+    text-align: left;
+}
+.howit{
+    background-image: url(./zomato-img/how-bg.webp);
+    width: 100%;
+    height: 332px;
+}
+.howtosteps{
+    display: flex;
+    justify-content: center;
+}
+.howitworks{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.step{
+    box-shadow: rgba(28, 28, 28, 0.1) 0px 4px 16px;
+    border-radius: 8px;
+    background-color: white;
+    height: 339px;
+    width: 275px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 15px 60px 8px;
+}
+
+.howdis{
+    padding: 50px 10px;
+}
+.howdis h4{
+    color: rgb(28, 28, 28) ;
+    padding: 10px;
+}
+#stphdn{
+    font-size: 24px;
+    padding: 15px;
+    color: gb(28, 28, 28);
+}
+
+#stpdis{
+    font-size: 18px;
+    color: rgb(79, 79, 86);
+}
+.imgcrcl{
+    padding-top: 50px;
+}
+/* #stp1img{
+    background-color: rgb(255, 252, 241);
+}
+#stp2img{
+    background-color: rgb(255, 245, 246);
+}
+#stp3img{
+    background-color: rgb(255, 249, 241);
+} */
